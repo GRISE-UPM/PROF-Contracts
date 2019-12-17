@@ -1,6 +1,8 @@
 package es.upm.grise.profundizacion.contratos;
 
 import org.junit.Test;
+
+import com.google.java.contract.*;
 import es.upm.grise.profundizacion.contratos.courses.DegreeCourse;
 import static es.upm.grise.profundizacion.contratos.CourseDataValuesTest.*;
 
@@ -25,5 +27,17 @@ public class SmokeTest {
 		// An exception is not raised
 		DegreeCourse degreeCourse = new DegreeCourse(CORRECT_MASTER_COURSE, NUM_REGISTRATION);
 	}
+	
+	
+	//a
+	@Test(expected = PreconditionError.class)
+	public void lasAsignaturasDebenTenerEntreUnoYSeisCreditos() {
+		
+		// 1 <= registration <= 6 to be valid
+		int NUM_REGISTRATION = 1;
+				
+		new DegreeCourse(MORE_THAN_6_CREDITS_DEGREE_COURSE, NUM_REGISTRATION);
+	}
+	
 
 }
