@@ -1,12 +1,13 @@
 package es.upm.grise.profundizacion.contratos.courses;
 
+
 import es.upm.grise.profundizacion.contratos.values.CourseData;
 
 public abstract class Course implements Comparable <Course> {
 
 	protected int numRegistrations;
 	protected CourseData courseData;
-
+	
 	public Course(int numRegistrations) {
 		this.numRegistrations = numRegistrations;
 	}
