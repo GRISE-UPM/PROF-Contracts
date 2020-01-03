@@ -1,1 +1,5 @@
 # Document here the issues associated to items g) and h)
+
+-El apartado g se trata de que el importe de una asignatura no puede ser negativo se puede resolver añadiendo un número de registro de asignatura negativo. De esta forma al multiplicar el número de registro cuando se quiere calcular el importe se obtendrá un resultado negativo. Sin embargo una de las condiciones es que el número de registro de la asignatura sea mayor o igual que 1 y menor o igual que 6 por lo que no se podría dar dicho caso.
+
+-El apartado h que consiste en que el número de la matrícula no puede ser negativo. En este caso se podrían hacer dos cosas una modificar todos los números de registro pero para eso habría que cambiar gran parte del código es por eso que se ha preferido crear una función auxiliar. Dicha función se llama Negative_values_course y se encuentra dentro de test, y devolverá un número negativo.
