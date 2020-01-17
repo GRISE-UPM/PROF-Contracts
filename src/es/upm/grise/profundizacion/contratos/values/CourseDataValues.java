@@ -1,5 +1,7 @@
 package es.upm.grise.profundizacion.contratos.values;
 
+import com.google.java.contract.Requires;
+
 public enum CourseDataValues implements CourseData {
 	
 	GPTI 			("DEGREE", "Gestion de Procesos de Tecnologias de la Informacion", 4),
