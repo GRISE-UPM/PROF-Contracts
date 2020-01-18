@@ -9,7 +9,7 @@ public class MasterCourse extends Course {
 	final private static double feePerCredit = 35.44;
 
 	public MasterCourse(CourseData course, int numRegistrations) {
-		super(numRegistrations);
+		super(course, numRegistrations);
 		this.courseData = course;
 	}
 	

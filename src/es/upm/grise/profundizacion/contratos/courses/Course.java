@@ -1,14 +1,22 @@
 package es.upm.grise.profundizacion.contratos.courses;
 
 import es.upm.grise.profundizacion.contratos.values.CourseData;
+import com.google.java.contract.Requires;
+import com.google.java.contract.Ensures;
 
 public abstract class Course implements Comparable <Course> {
 
 	protected int numRegistrations;
 	protected CourseData courseData;
 
-	public Course(int numRegistrations) {
+	@Requires("courseData.getCredits() >= 1 && " +
+			  "courseData.getCredits() <= 6 && " +
+			  "numRegistrations >= 1 && " +
+			  "numRegistrations <= 6")
+	@Ensures("getFee() >= 0")
+	public Course(CourseData course, int numRegistrations) {
 		this.numRegistrations = numRegistrations;
+		this.courseData = course;
 	}
 	
 	public String getLevel() {
