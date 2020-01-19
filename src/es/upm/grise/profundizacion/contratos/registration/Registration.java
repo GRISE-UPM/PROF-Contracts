@@ -12,7 +12,7 @@ public class Registration {
 
 	Set<Course> courses = new TreeSet<Course>();
 
-	@Ensures("getNumberCourses() <= 10 &&" + "getTotalCredits() <= 36 &&" + "getRegistrationFee() >= 0")
+	@Ensures("getNumberCourses() <= 10 && getTotalCredits() <= 36 && getRegistrationFee() >= 0")
 	public void addCourse(Course course) {
 		courses.add(course);
 	}
