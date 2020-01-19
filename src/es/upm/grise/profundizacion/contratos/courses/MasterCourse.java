@@ -8,8 +8,9 @@ public class MasterCourse extends Course {
 	
 	final private static double feePerCredit = 35.44;
 
+	@Requires("\"MASTER\".equals(course.getLevel())")
 	public MasterCourse(CourseData course, int numRegistrations) {
-		super(numRegistrations);
+		super(numRegistrations, course);
 		this.courseData = course;
 	}
 	
