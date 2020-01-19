@@ -1,6 +1,6 @@
 package es.upm.grise.profundizacion.contratos.values;
 
-public enum CourseDataValues implements CourseData {
+public enum CourseDataValues implements CourseData { 
 	
 	GPTI 			("DEGREE", "Gestion de Procesos de Tecnologias de la Informacion", 4),
 	PROFUNDIZACION	("MASTER", "Profundizacion en Ingeniería de Software", 3);

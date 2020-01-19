@@ -4,18 +4,21 @@ import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeSet;
 
+import com.google.java.contract.Ensures;
+
 import es.upm.grise.profundizacion.contratos.courses.Course;
 
 public class Registration {
 	
 	Set<Course> courses = new TreeSet<Course>();
 	
+	@Ensures("getNumberCourses() <= 10 &&" + "getTotalCredits() <= 36 &&" + "getRegistrationFee() >= 0")
 	public void addCourse(Course course) {
 		courses.add(course);
 	}
 	
 	public double getRegistrationFee() {
-		
+		 
 		double total = 0;
 		
 		for(Iterator<Course> it = courses.iterator(); it.hasNext();) {
