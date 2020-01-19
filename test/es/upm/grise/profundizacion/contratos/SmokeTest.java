@@ -89,8 +89,8 @@ public class SmokeTest {
 		registration.addCourse(new DegreeCourse(DEGREE_COURSE_N9, 1)); 
 		registration.addCourse(new DegreeCourse(DEGREE_COURSE_N10, 1));
 	}
-	
-	@Test (expected = PostconditionError.class)
+
+	@Test(expected = PostconditionError.class)
 	public void testRegistrationMoreThanTenCourses() {
 		Registration registration = new Registration();
 		registration.addCourse(new DegreeCourse(CORRECT_DEGREE_COURSE, 1)); 
@@ -106,7 +106,7 @@ public class SmokeTest {
 		registration.addCourse(new DegreeCourse(DEGREE_COURSE_N10, 1));
 	}
 	
-	@Test (expected = PostconditionError.class)
+	@Test(expected = PostconditionError.class)
 	public void testRegistrationMoreThan36Credits() {
 		Registration registration = new Registration();
 		registration.addCourse(new DegreeCourse(CORRECT_DEGREE_COURSE, 1));
