@@ -5,5 +5,5 @@ public interface CourseData {
 	public String getLevel();
 	public String getName();
 	public int getCredits();
-	
+
 }
