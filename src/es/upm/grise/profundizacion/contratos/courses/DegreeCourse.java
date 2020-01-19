@@ -1,6 +1,5 @@
 package es.upm.grise.profundizacion.contratos.courses;
 
-import static org.junit.Assert.assertArrayEquals;
 
 import com.google.java.contract.Requires;
 
