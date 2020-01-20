@@ -1,7 +1,5 @@
 package es.upm.grise.profundizacion.contratos.courses;
 
-import static org.junit.Assert.assertArrayEquals;
-
 import com.google.java.contract.Requires;
 
 import es.upm.grise.profundizacion.contratos.values.CourseData;
@@ -12,7 +10,7 @@ public class DegreeCourse extends Course {
 
 	@Requires("\"DEGREE\".equals(course.getLevel())")
 	public DegreeCourse(CourseData course, int numRegistrations) {
-		super(numRegistrations);
+		super(numRegistrations, course);
 		this.courseData = course;
 	}
 
@@ -23,5 +21,5 @@ public class DegreeCourse extends Course {
 		else
 			return fee;
 	}
-	
+
 }
