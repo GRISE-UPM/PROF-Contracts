@@ -54,11 +54,5 @@ public enum CourseDataValuesTest implements CourseData {
 		return credits;
 	}
 	
-	public static void main (String [] args) {
-		int NUM_REGISTRATION = 1;
-		
-		DegreeCourse a = new DegreeCourse(MORE_THAN_6_CREDITS_DEGREE, NUM_REGISTRATION);
-		System.out.println(a.getCredits());
-	}
 	
 }
