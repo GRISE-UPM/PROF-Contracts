@@ -10,8 +10,7 @@ public class MasterCourse extends Course {
 	
 	@Requires("\"MASTER\".equals(course.getLevel())")
 	public MasterCourse(CourseData course, int numRegistrations) {
-		super(numRegistrations);
-		this.courseData = course;
+		super(numRegistrations, course);
 	}
 	
 	public double getFee() {

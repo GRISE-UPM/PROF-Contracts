@@ -8,7 +8,7 @@ import com.google.java.contract.Invariant;
 
 import es.upm.grise.profundizacion.contratos.courses.Course;
 
-@Invariant("getNumberCourses() <= 10 && getTotalCredits() <= 36 &&" + "getRegistrationFee() >= 0")
+@Invariant("getNumberCourses() <= 10 && getTotalCredits() <= 36 && getRegistrationFee() >= 0")
 public class Registration {
 
 	Set<Course> courses = new TreeSet<Course>();

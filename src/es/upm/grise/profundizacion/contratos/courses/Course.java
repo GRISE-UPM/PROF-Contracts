@@ -10,11 +10,12 @@ public abstract class Course implements Comparable<Course> {
 	protected int numRegistrations;
 	protected CourseData courseData;
 
-	@Requires("courseData.getCredits() >= 1 && courseData.getCredits() <= 6 &&"
+	@Requires("course.getCredits() >= 1 && course.getCredits() <= 6 && "
 			+ "numRegistrations >= 1 && numRegistrations <= 6")
 	@Ensures("getFee() >= 0.0")
-	public Course(int numRegistrations) {
+	public Course(int numRegistrations, CourseData course) {
 		this.numRegistrations = numRegistrations;
+		this.courseData = course;
 	}
 
 	public String getLevel() {

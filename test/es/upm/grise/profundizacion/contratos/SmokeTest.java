@@ -150,7 +150,7 @@ public class SmokeTest {
 		registration.addCourse(new DegreeCourse(CORRECT_DEGREE_COURSE6, 1));
 		registration.addCourse(new DegreeCourse(CORRECT_DEGREE_COURSE7, 1));
 		registration.addCourse(new DegreeCourse(CORRECT_DEGREE_COURSE8, 1));
-		registration.addCourse(new DegreeCourse(CORRECT_DEGREE_COURSE9, 1));
+		registration.addCourse(new DegreeCourse(CORRECT_DEGREE_COURSE12, 1));
 		registration.addCourse(new DegreeCourse(CORRECT_DEGREE_COURSE11, 1));
 	}
 	
@@ -171,6 +171,7 @@ public class SmokeTest {
 		registration.addCourse(new DegreeCourse(CORRECT_DEGREE_COURSE9, 1));
 		registration.addCourse(new DegreeCourse(CORRECT_DEGREE_COURSE10, 1));
 		registration.addCourse(new DegreeCourse(CORRECT_DEGREE_COURSE11, 1));
+		
 	}
 	
 	
