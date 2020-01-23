@@ -1,5 +1,28 @@
 
-Hsquid:S1481"1Remove this unused "degreeCourse" local variable.(•¸ë‡
-Msquid:S1481"1Remove this unused "degreeCourse" local variable.(á­ß¼ûÿÿÿÿ
-nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÿ‚Şúÿÿÿÿ
-nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÿ‚Şúÿÿÿÿ
+Osquid:S1481"1Remove this unused "degreeCourse" local variable.(øŠÖ8«†´Ôû-
+usquid:S00117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìŒ‡»øÿÿÿÿ8“è¿Ôû-
+Osquid:S1481 "1Remove this unused "degreeCourse" local variable.(ÿ¥Ò¬8«†´Ôû-
+Osquid:S1481g"1Remove this unused "degreeCourse" local variable.(•¸ë‡8êÅÑÔû-
+Usquid:S1481†"1Remove this unused "masterCourse" local variable.(ÿû±Èÿÿÿÿÿ8êÅÑÔû-
+psquid:S00117Z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò²«8“è¿Ôû-
+Osquid:S1481*"1Remove this unused "masterCourse" local variable.(½½¨8ò¢¾Ôû-
+Osquid:S14814"1Remove this unused "masterCourse" local variable.(Î¡Ë8ò¢¾Ôû-
+usquid:S00117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÿ‚Şúÿÿÿÿ8ŞÓ½Ôû-
+Osquid:S1481>"1Remove this unused "degreeCourse" local variable.(•¸ë‡8ÆñÁÔû-
+usquid:S00117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìŒ‡»øÿÿÿÿ8“è¿Ôû-
+usquid:S001172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÿ‚Şúÿÿÿÿ8ŞÓ½Ôû-
+vsquid:S00117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÿ‚Şúÿÿÿÿ8êÅÑÔû-
+Tsquid:S1481R"1Remove this unused "masterCourse" local variable.(ÿû±Èÿÿÿÿÿ8ê’ÁÔû-
+usquid:S00117d"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÿ‚Şúÿÿÿÿ8êÅÑÔû-
+vsquid:S00117¾"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÿ‚Şúÿÿÿÿ8–æ‚Õû-
+Osquid:S1481H"1Remove this unused "degreeCourse" local variable.(•¸ë‡8ÆñÁÔû-
+Ysquid:S1481¾"5Remove this unused "NUM_REGISTRATION" local variable.(èÿ‚Şúÿÿÿÿ8®Ş†Õû-
+Osquid:S1481À"+Remove this unused "course" local variable.(ÅıÜ‚ùÿÿÿÿ8’¾‰Õû-
+Tsquid:S1481|"1Remove this unused "masterCourse" local variable.(ÿû±Èÿÿÿÿÿ8êÅÑÔû-
+usquid:S00117o"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÿ‚Şúÿÿÿÿ8êÅÑÔû-
+usquid:S00117z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÿ‚Şúÿÿÿÿ8êÅÑÔû-
+Tsquid:S1481r"1Remove this unused "degreeCourse" local variable.(á­ß¼ûÿÿÿÿ8êÅÑÔû-
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÿ‚Şúÿÿÿÿ8ÎÉ²Óû-
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÿ‚Şúÿÿÿÿ8ÎÉ²Óû-
+psquid:S00117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò²«8“è¿Ôû-
+Tsquid:S1481\"1Remove this unused "masterCourse" local variable.(ÿû±Èÿÿÿÿÿ8ê’ÁÔû-

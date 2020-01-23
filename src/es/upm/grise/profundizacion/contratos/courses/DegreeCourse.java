@@ -13,7 +13,6 @@ public class DegreeCourse extends Course {
 	@Requires("\"DEGREE\".equals(course.getLevel())")
 	public DegreeCourse(CourseData course, int numRegistrations) {
 		super(course, numRegistrations);
-		this.courseData = course;
 	}
 
 	@Override

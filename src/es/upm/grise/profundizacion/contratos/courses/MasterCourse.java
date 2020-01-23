@@ -10,7 +10,6 @@ public class MasterCourse extends Course {
 
 	public MasterCourse(CourseData course, int numRegistrations) {
 		super(course, numRegistrations);
-		this.courseData = course;
 	}
 	
 	public double getFee() {
